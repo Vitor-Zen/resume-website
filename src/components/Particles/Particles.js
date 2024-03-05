@@ -34,7 +34,7 @@ const ParticlesComponent = () => {
                                 value: "#FFFFFF"
                             },
                             number: {
-                                value: 120
+                                value: 150
                             },
                             shape: {
                                 type: "star"
@@ -54,7 +54,7 @@ const ParticlesComponent = () => {
                             },
                             move: {
                                 enable: true,
-                                speed: 0.5
+                                speed: 1
                             }
                         },
                         interactivity: {
@@ -62,8 +62,7 @@ const ParticlesComponent = () => {
                             events: {
                                 onHover: {
                                     enable: true,
-                                    // mode: "repulse"
-                                    mode: "attract"
+                                    mode: "repulse"
                                 }
                             }
                         },

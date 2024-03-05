@@ -1,0 +1,42 @@
+.personal-projects-container {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border: 0px solid white;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    flex-direction: column;
+    margin-top: 3rem;
+    padding: 10px 8rem;
+    position: relative;
+    z-index: 2; 
+}
+
+.grid-container {
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: repeat(3, 20.75rem);
+}
+
+.grid-image-container {
+    transition: filter 0.3s ease-in-out;
+}
+
+.grid-image-container:hover {
+    filter: blur(5px);
+    cursor: pointer;
+}
+
+img {
+    height: 220px !important;
+    width: 332px !important;
+}
+
+h3 {
+    color: rgb(117, 11, 255) !important;
+    line-height: 4rem;
+}
+
+.personal-projects-title {
+    margin-bottom: 2rem;
+}
