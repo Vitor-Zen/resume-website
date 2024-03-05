@@ -1,0 +1,58 @@
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    margin-top: 1rem;
+    padding: 10px 0;
+    position: relative;
+    z-index: 2;
+}
+
+.header-container nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.header-container nav ul li {
+    margin: 1rem;
+    position: relative;
+}
+
+.header-container nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.header-container nav ul li a::before,
+.header-container nav ul li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 2px solid transparent;
+    transition: width 0.3s, height 0.3s;
+}
+
+.header-container nav ul li a::before {
+    top: 0;
+    left: 0;
+}
+
+.header-container nav ul li a::after {
+    bottom: 0;
+    right: 0;
+}
+
+.header-container nav ul li a:hover::before,
+.header-container nav ul li a:hover::after {
+    width: 110%;
+    height: 110%;
+    border-color: rgb(117, 11, 255);
+}
