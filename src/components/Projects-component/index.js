@@ -29,10 +29,10 @@ const Projects = () => {
            <div className="grid-container">
                 <div className="grid-item">
                     <h3>Crud React Project</h3>
-                    <h4>A heroes crud developed using react</h4>
+                    <h4>A heroes crud developed using React</h4>
                     <div className="grid-image-container">
                         <a href="https://github.com/Vitor-Zen/Reactjs-crud" target="_blank">
-                            {imageState.react && <img src={imageState.react} alt="An image with the react technology symbol and a computer with lines of code written" />}
+                            {imageState.react && <img src={imageState.react} className="img-personal-project" alt="An image with the react technology symbol and a computer with lines of code written" />}
                         </a>
                     </div>
                 </div>
@@ -41,7 +41,7 @@ const Projects = () => {
                     <h4>A web RPG developed using Python and React</h4>
                     <div className="grid-image-container">
                         <a href="https://github.com/Vitor-Zen/lifemaker" target="_blank">
-                            {imageState.lifemaker && <img src={imageState.lifemaker} alt="An image of dice used to play rpg on a table" />}
+                            {imageState.lifemaker && <img src={imageState.lifemaker} className="img-personal-project" alt="An image of dice used to play rpg on a table" />}
                         </a>
                     </div>
                 </div>
@@ -50,7 +50,7 @@ const Projects = () => {
                     <h4>A link aggregator project using HTML, CSS and JavaScript</h4>
                     <div className="grid-image-container">
                         <a href="https://github.com/Vitor-Zen/agregador-de-links" target="_blank">
-                            {imageState.aggregator && <img src={imageState.aggregator} alt="An image of a half-open notebook on a table" />}
+                            {imageState.aggregator && <img src={imageState.aggregator} className="img-personal-project" alt="An image of a half-open notebook on a table" />}
                         </a>
                     </div>
                 </div>
