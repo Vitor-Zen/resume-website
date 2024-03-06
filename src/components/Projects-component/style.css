@@ -1,6 +1,7 @@
 .personal-projects-container {
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: black;
     border: 0px solid white;
     border-left-width: 1px;
@@ -9,17 +10,20 @@
     margin-top: 3rem;
     padding: 10px 8rem;
     position: relative;
-    z-index: 2; 
+    z-index: 2;
 }
 
 .grid-container {
     display: grid;
-    gap: 4rem;
+    gap: 2rem;
     grid-template-columns: repeat(3, 20.75rem);
+    justify-content: center;
 }
 
 .grid-image-container {
     transition: filter 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
 }
 
 .grid-image-container:hover {
@@ -30,6 +34,7 @@
 .img-personal-project {
     height: 220px !important;
     width: 332px !important;
+    object-fit: cover;
 }
 
 h3 {
