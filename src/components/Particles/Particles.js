@@ -34,7 +34,7 @@ const ParticlesComponent = () => {
                                 value: "#FFFFFF"
                             },
                             number: {
-                                value: 1000
+                                value: 200
                             },
                             shape: {
                                 type: "star"

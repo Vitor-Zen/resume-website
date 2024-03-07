@@ -21,8 +21,8 @@ const About = () => {
             <div>
             <div className="curiosity-about">
                 <ul>
-                    <li>I enjoy what I do, and I always try to improve what I do.</li>
-                    <li>Playing video games makes me happier person.</li>
+                    <li>I enjoy what I do, and I am always trying to improve it. </li>
+                    <li>Playing video games makes me a happier person.</li>
                     <li>I love cooking and spending time with my family and friends</li>
                 </ul>
             </div>
