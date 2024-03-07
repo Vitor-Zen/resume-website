@@ -5,7 +5,7 @@ import './App.css'
 import Header from "./components/Header"
 import About from "./components/About/index"
 import Projects from "./components/Projects-component";
-import Social from "./components/Social/index"
+import Footer from "./components/Footer/index"
 
 const App = () => {
     return (
@@ -13,7 +13,7 @@ const App = () => {
         <Header/>
         <About/>
         <Projects/>
-        <Social/>
+        <Footer/>
         <ParticlesComponent />
       </div>
     );

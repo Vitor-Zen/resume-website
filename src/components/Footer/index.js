@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./style.css";
 
-const Social = () => {
+const Footer = () => {
   const [imageIcon, setImageIcon] = useState({
     twitter: null,
     github: null,
@@ -24,21 +24,21 @@ const Social = () => {
   }, []);
 
   return (
-    <div className="social-container">
-      <h3 className="social-text">You can find me on</h3>
+    <div className="footer-container">
+      <h3 className="footer-text">You can find me on</h3>
       <div className="socials">
         <a href="https://twitter.com/ZenDevv" target="_blank">
-          {imageIcon.twitter && <img src={imageIcon.twitter}/>}
+          {imageIcon.twitter && <img src={imageIcon.twitter}  className="footer-img" alt="Twitter Icon" />}
         </a>
         <a href="https://github.com/Vitor-Zen" target="_blank">
-          {imageIcon.github && <img src={imageIcon.github}/>}
+          {imageIcon.github && <img src={imageIcon.github} className="footer-img" alt="GitHub Icon" />}
         </a>
         <a href="https://www.linkedin.com/in/vitor-zen/" target="_blank">
-          {imageIcon.linkedin && <img src={imageIcon.linkedin} />}
+          {imageIcon.linkedin && <img src={imageIcon.linkedin} className="footer-img" alt="LinkedIn Icon" />}
         </a>
       </div>
     </div>
   );
 };
 
-export default Social;
+export default Footer;

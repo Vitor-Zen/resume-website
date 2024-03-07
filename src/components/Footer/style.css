@@ -1,21 +1,20 @@
-.social-container {
+.footer-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: black;
-    border: 0px solid white;
-    border-left-width: 1px;
-    border-right-width: 1px;
     margin: 13rem 0rem 0rem 0rem;
     padding: 10px 8rem;
     position: relative;
     z-index: 2;
 }
 
-a img {
-    height: 100px;
-    width: 100px;
+.footer-img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    transition: transform 0.2s ease;
 }
 
 .socials {
@@ -23,4 +22,8 @@ a img {
     justify-content: space-between;
     gap:  5rem;
     margin-top: 2rem;
+}
+
+.footer-img:hover {
+    transform: scale(1.1);
 }
