@@ -1,0 +1,12 @@
+.experience-container {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border: 0px solid white;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    margin: 3rem 0rem 13rem 0rem;
+    padding: 10px 8rem;
+    position: relative;
+    z-index: 2;
+}
